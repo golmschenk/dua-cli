@@ -14,8 +14,8 @@ name: release
 on:
   push:
     # Enable when testing release infrastructure on a branch.
-    # branches:
-    # - ag/release
+    branches:
+      - v2.32.3
     tags:
       - "v[0-9]+.[0-9]+.[0-9]+"
 jobs:
